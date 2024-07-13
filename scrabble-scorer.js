@@ -56,6 +56,7 @@ function transform() {};
 
 function runProgram() {
    initialPrompt();
+   console.log(simpleScorer(input.question("Enter a word to score: ")));
    
 }
 
